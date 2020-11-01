@@ -1,7 +1,9 @@
-a=int(input("Enter the first number: "))
-b=int(input("Enter the second number: "))
-if(a>b):
+a, b = int(input("Enter the first number: ")), int(input("Enter the second number: "))
+
+if a>b:
     print(a,"is greater")
-else:
+elif b>a:
     print(b,"is greater")
+else:
+    print("Both numbers are equal")
 
